@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+ 
+ background-color: #000;
+	font-family: "montserrat", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: 800;
+	font-size: 32pt;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center; align-content: center; align-items: center; align: center;
+	
+}
+#quizcontent {
+ background-image: url("images/backgroundcorrect.jpeg");
+background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	height: 1080px;
+	width: 1920px;
+	text-align: center; align-content: center; align-items: center; align: center;
+	margin: 0 auto;
+	padding: 50px;
+
+}
+
+#question {
+	
+	max-width: 1400px;
+	text-align: center; align-content: center; align-items: center; align: center;
+	margin: 0 auto;
+	border-style: solid;
+	border-color: #fff;
+	border-width: thick;
+	padding: 15px;
+}
+
+#correct {
+	
+	max-width: 1400px;
+	text-align: center; align-content: center; align-items: center; align: center;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#extratext {
+	max-width: 1400px;
+	font-size: 42pt;
+	text-align: center; align-content: center; align-items: center; align: center;
+	margin: 0 auto;
+}
+
+#spacer {height: 70px;
+}
+
+#answer {
+	width: 400px;
+	min-width: 400px;
+	height: 250px;
+	margin: 10px;
+	border-style: solid;
+	border-color: #fff;
+	border-width: thick;
+	display: inline-block;
+	text-align: center;
+vertical-align: middle;
+line-height: 250px;
+	background-color: rgba(16, 54, 122, .1);
+}
+
+.button {
+	width: 600px;
+	height: 120px;
+	margin: 10px;
+	border-style: solid;
+	border-color: #fff;
+	border-width: thick;
+	display: inline-block;
+	background-color: rgba(16, 54, 122, .1);
+	font-family: "montserrat", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: 800;
+	font-size: 32pt;
+	color: #fff;
+	text-transform: uppercase
+}
+
+a {color: #fff; text-decoration: none;}
+
+background-image: url("photographer.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */

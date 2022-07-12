@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Quiz</title>
+<link href="quizcss.css" rel="stylesheet" type="text/css" media="screen">
+			<script type="text/javascript">
+function randomlinks(){
+    var myrandom=Math.round(Math.random()*13)
+    var links=new Array()
+    links[0]="quiz1.html"
+    links[1]="quiz2.html"
+    links[2]="quiz3.html"
+    links[3]="quiz4.html"
+    links[4]="quiz5.html"
+    links[5]="quiz6.html"
+    links[6]="quiz7.html"
+	links[7]="quiz8.html"
+    links[8]="quiz9.html"
+    links[9]="quiz10.html"
+    links[10]="quiz11.html"
+    links[11]="quiz12.html"
+    links[12]="quiz13.html"
+    links[13]="quiz14.html"
+
+ 
+    window.location=links[myrandom]
+}
+</script>
+</head>
+
+<body>
+	
+	<div id="quizcontent"><img src="images/capulalogo.png"; style="width: 50%; padding-top: 150px;">
+		<div id="spacer"> </div>
+	
+		<div id="spacer"> </div>
+	
+	<div id="spacer"> </div>
+	
+<form>
+	<a href="#"><input type="button" class="button" value="Start Quiz" onClick="randomlinks()"></a>
+</form>
+	
+		<div id="spacer"> </div>
+		<p style="font-size: 10pt; font-weight: 400;"></p>
+</div>	
+</body>
+</html>
